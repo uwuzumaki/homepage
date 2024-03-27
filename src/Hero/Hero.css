@@ -1,0 +1,11 @@
+.hero-content-wrapper {
+  max-width: 1000px;
+
+  display: flex;
+}
+
+.hero-image {
+  max-width: 250px;
+  width: 100%;
+  height: auto;
+}
