@@ -1,0 +1,7 @@
+.website-container {
+  display: grid;
+  max-width: 1000px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  gap: 10px;
+}
