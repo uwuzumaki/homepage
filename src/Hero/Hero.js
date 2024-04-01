@@ -1,5 +1,5 @@
 import "./Hero.css";
-import heroImg from "./hero-image.jpg";
+// import heroImg from "./hero-image.jpg";
 
 const Hero = () => {
   const app = document.querySelector("#app");
@@ -12,10 +12,10 @@ const Hero = () => {
   infoWrapper.classList.add("hero-content-wrapper");
   hero.appendChild(infoWrapper);
 
-  const heroImage = document.createElement("img");
+  let heroImage = document.createElement("img");
   heroImage.classList.add("hero-image");
   infoWrapper.appendChild(heroImage);
-  heroImage.src = heroImg;
+  heroImage.src = require("./hero-image.jpg");
 
   const heroText = document.createElement("article");
   heroText.classList.add("hero-text");

@@ -1,3 +1,24 @@
 .website-tile {
   max-width: 80%;
 }
+
+.website-screenshot {
+  width: 250px;
+  height: calc(250px * 0.5625);
+}
+
+.title-wrapper {
+  width: 250px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.icons-small {
+  max-width: 16px;
+}
+
+.description {
+  min-height: 100px;
+}
