@@ -1,0 +1,13 @@
+.footer {
+  min-width: 1000px;
+
+  display: flex;
+}
+
+.icons-medium {
+  max-width: 32px;
+}
+
+.icons-large {
+  max-width: 48px;
+}
