@@ -8,12 +8,28 @@
   max-width: 1000px;
   margin: 0 auto;
   padding: 32px;
-
-  display: flex;
+  display: grid;
+  grid-template-areas: "image topT" "image bottomT";
+  grid-column-gap: 3%;
+  grid-row-gap: 0px;
 }
 
 .hero-image {
   max-width: 250px;
   width: 100%;
   height: auto;
+  margin: 3%;
+  grid-area: image;
+}
+
+.about-me {
+  grid-area: topT;
+
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 5%;
+}
+
+.hero-text {
+  grid-area: bottomT;
 }

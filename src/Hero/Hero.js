@@ -17,6 +17,11 @@ const Hero = () => {
   infoWrapper.appendChild(heroImage);
   heroImage.src = require("./hero-image.jpg");
 
+  let aboutMe = document.createElement("header");
+  aboutMe.classList.add("about-me");
+  infoWrapper.appendChild(aboutMe);
+  aboutMe.textContent = "About Me";
+
   const heroText = document.createElement("article");
   heroText.classList.add("hero-text");
   infoWrapper.appendChild(heroText);
